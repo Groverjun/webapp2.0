@@ -1,0 +1,126 @@
+body {
+	background: url(../img/bg.jpg) no-repeat;
+	background-attachment: fixed;
+}
+
+#commonality #C_header .navbar-default {
+	background: -webkit-linear-gradient(top, #0c2f6a, #11346e);
+	color: #fff;
+}
+
+#commonality #C_header .navbar-default .navbar-nav>.active>a,
+#commonality #C_header .navbar-default .navbar-nav>.active>a:focus,
+#commonality #C_header .navbar-default .navbar-nav>.active>a:hover {
+	background: none;
+	color: #fff;
+}
+
+#commonality #C_header .navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+#commonality #C_header .navbar-brand {
+	padding: 4px 15px;
+}
+
+#commonality #C_header .navbar-default {
+	border: none;
+}
+
+#commonality #C_header .navRight {
+	float: right !important;
+}
+
+#commonality #C_header .navRight>a {
+	display: flex;
+	align-items: center;
+}
+
+#commonality #C_header .navRight>a>i {
+	margin-right: 5px;
+	font-size: 18px;
+}
+
+#commonality #C_header .navbar-nav {
+	float: none;
+}
+
+#commonality #C_header .navbar-toggle {
+	background: transparent;
+	border: none;
+}
+
+#commonality #C_header .hidd {
+	display: none;
+}
+
+#commonality #C_header .sho {
+	display: block;
+}
+
+@media (max-width: 767px) {
+	#commonality #C_header .navRight {
+		float: none !important;
+	}
+	#commonality #C_header .hidd {
+		display: block;
+	}
+	#commonality #C_header .sho {
+		display: none;
+	}
+}
+
+#commonality #C_main {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#commonality #C_main #C_left {
+	width: 17%;
+}
+
+#commonality #C_main #C_left .list-group-item {
+	height: 50px;
+	line-height: 30px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #4969a7;
+	color: #fff;
+	font-size: 16px;
+}
+
+#commonality #C_main #C_left .list-group-item>i {
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+#commonality #C_main #C_left .list-group-item>em {
+	float: right;
+	font-style: normal;
+	font-size: 20px;
+}
+
+#commonality #C_main #C_left .list-group-item .janAct {
+	transform: rotate(90deg);
+}
+
+#commonality #C_main #C_left .act {
+	background: #1b4387 !important;
+}
+
+@media (max-width: 767px) {
+	#commonality #C_left {
+		display: none;
+	}
+	#commonality .shuju_Mright {
+		width: 100% !important;
+		float: none !important;
+	}
+	#commonality .shuju_Mright .seekTable .table {
+		width: 100% !important;
+	}
+}
+
+
+/*# sourceMappingURL=commonality.css.map */

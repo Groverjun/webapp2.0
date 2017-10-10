@@ -1,0 +1,104 @@
+@charset "utf-8";
+body{
+  background: url(../img/bg.jpg) no-repeat;
+  background-attachment: fixed;    
+}
+#commonality{
+  #C_header{   
+    .navbar-default{
+        background:  -webkit-linear-gradient(top,#0c2f6a,#11346e);
+        color: #fff;
+    }
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:focus, 
+    .navbar-default .navbar-nav>.active>a:hover{
+         background: none;
+         color: #fff;
+     }
+    .navbar-default .navbar-nav>li>a{
+        color: #fff;
+     }
+    .navbar-brand{
+         padding: 4px 15px;
+    }
+    .navbar-default{border: none;}     
+    .navRight{
+         float: right !important;
+         >a{
+             display: flex;
+             align-items: center;
+             >i{
+                 margin-right: 5px;
+                 font-size: 18px;
+             }
+                        
+         }
+     }
+     .navbar-nav{float: none;}
+     .navbar-toggle{
+         background: transparent;
+         border: none;
+     }
+     .hidd{display: none;}
+     .sho{display: block;}
+     @media (max-width: 767px) {
+       .navRight {float: none !important; }         
+       .hidd{display: block;}  
+       .sho{display: none;}               
+    }    
+}
+ #C_main{
+     margin-top: 60px;
+     display: flex;
+     justify-content:space-betweens;
+     #C_left{
+        width: 25%;
+        .list-group-item{
+            height: 50px;
+            line-height: 30px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid #4969a7;
+            color: #fff; font-size: 16px;
+           >i{
+               font-size: 20px;
+               margin-right: 5px;
+           }
+           >em{
+               float: right;
+               font-style: normal;
+               font-size: 20px;
+           }
+           .janAct{
+              transform: rotate(90deg);
+           }
+        }
+        .act{
+            background: #1b4387 !important;
+        }
+     }
+ 
+ }
+
+
+  
+       
+@media (max-width: 767px) {
+      #C_left{
+       display: none;
+      }
+      .shuju_Mright{
+        width: 100% !important;
+        float: none !important;        
+        .seekAbt{
+            
+        }
+        .seekTable {
+               .table {
+                    width: 100% !important;
+                }            
+            }
+    }     
+} 
+
+}

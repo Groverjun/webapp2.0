@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+#serviceCentre ul,ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#serviceCentre{
+    width: 100%;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-top: 2px;
+    .serviceCentre_box{
+        margin-bottom: 15px;
+    }
+    .serviceCentre_box>.serviceCentre_h1{
+        padding: 0;
+        margin: 0;
+        padding-left: 20px;
+        background: rgba(0,0,0,0.15);
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .serviceCentre_txt{
+        background: rgba(0,0,0,0.08);
+        padding: 12px;
+    }
+    .serviceCentre_img{
+        width: 200px;       
+        height: 220px;
+        position: relative;
+        border: 1px solid rgba(255,255,255,0.1);
+        overflow: hidden;
+        >ul{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            >li>p{
+                margin-top: 18px;
+                    font-size: 16px;
+                
+            }
+        }
+        >ol{
+            width: 100%;
+            height: 45px;
+            position: absolute;
+            bottom: 0;
+            font-size: 12px;
+            box-sizing: border-box;
+            background: rgba(0,0,0,0.05);
+            padding:0 7px;
+            li{
+                border-radius: 2000px;
+                background: rgba(0,0,0,0.1);
+                line-height: 20px;
+                cursor: pointer;
+                width: 58px;
+                float: left;
+                height: 20px;
+                margin-top: 15px;
+            }
+            > li:nth-child(2){
+                margin: 15px 10px 0; 
+                flex-grow:inherit; 
+            }
+            > li:nth-child(3){
+                flex-grow:inherit; 
+                width: 48px;              
+            }
+            li:hover{
+                background: rgba(0,0,0,0.3);
+            }
+        }
+        .dredge{
+            width: 45px;
+            height: 20px;
+            background:rgba(0,0,0,0.1);
+            position: absolute;
+            padding-right: 2px;
+            top: 0;
+            right: 0;
+            >span{
+                position: absolute;
+                width: 0;
+                height: 0;
+                border: 14px solid transparent;
+                border-left-color: rgba(0,0,0,0.1);
+                top:6px ;
+                left: -14px;
+                transform:rotateZ(44deg);
+            }
+           
+        } 
+    }
+}
+@media (min-width: 1200px){
+.serviceCentre_txt .row{margin-left:0px;}
+#serviceCentre .col-lg-2 {
+    width: 20%;
+    }
+    #serviceCentre .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    padding: 0;
+}
+}
+
+#commonality #C_right {
+        width: 83%;
+    }
+@media (max-width: 767px) {
+    #commonality #C_left {
+        display: none;
+    }
+    #commonality #C_right {
+        width: 100%;
+    }
+    #serviceCentre .serviceCentre_img{
+        width: 100%;
+    }
+}
+@media (max-width: 990px) {
+
+    #serviceCentre .serviceCentre_img{
+        width: 100%;
+    }
+}

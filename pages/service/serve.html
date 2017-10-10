@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/commonality.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/shuju.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/visitDetail.css" />
+		<title>共有样式</title>
+		<style type="text/css">
+			.textBox{
+				display: flex;
+				position: relative;
+				transition: all 1s;
+			}
+			.text{
+				width: 150px;
+				overflow:hidden ;
+				text-overflow : ellipsis ;
+				white-space: nowrap;
+			}
+			.textBox a{
+				color: #fff !important;
+			}
+			.textBox p{
+				margin: 0;
+				position: absolute;
+				height: 100px;
+				background: #274f95;
+				top: 0;
+				left: 0;
+				display: none;
+				transition: all 2s;
+				z-index: 100;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="commonality">
+			<div id="C_header">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+													<span class="sr-only">切换导航</span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+											</button>
+							<a class="navbar-brand" href="#"><img src="../img/logo.jpg" /></a>
+						</div>
+						<div class="collapse navbar-collapse" id="example-navbar-collapse">
+							<ul class="nav navbar-nav navActive">
+								<li class="sho">
+									<a href="#">全国客服热线：40000-99990</a>
+								</li>
+								<li class="hidd">
+									<a href="#"><i class="iconfont icon-zhexiantu"></i>数据中心</a>
+								</li>
+								<li class="hidd">
+									<a href="#"><i class="iconfont icon-xin"></i>产品服务</a>
+								</li>
+								<li class="hidd">
+									<a href="#"><i class="iconfont icon-yonghu"></i>用户中心</a>
+								</li>
+								<li class="navRight">
+									<a href="../login.html">
+										<i class="iconfont icon-yonghu"></i> 退出
+									</a>
+								</li>
+								<li class="navRight">
+									<a href="../service/serve.html">
+										<i class="iconfont icon-xinfeng" style="font-size: 20px;"></i> 消息中心
+										<span class="radios"></span>										
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div id="C_main">
+				<div id="C_left">
+					<div class="list-group">
+						<a href="../data/dataCentre.html" class="list-group-item act">
+							<i class="iconfont icon-zhexiantu"></i> 数据中心
+							<em class="jian janAct">›</em>
+						</a>
+						<a href="../service/serviceCentre.html" class="list-group-item">
+							<i class="iconfont icon-xin"></i> 服务中心
+							<em class="jian">›</em>
+						</a>
+						<a href="../user/user.html" class="list-group-item">
+							<i class="iconfont icon-yonghu"></i> 用户中心
+							<em class="jian">›</em>
+						</a>
+					</div>
+				</div>
+				<!--公用样式完-->
+				<div id="C_right">
+					<div id="information">
+						<!--头部导航-->
+						<div class="btn-group btn-group-justified" role="group" id="informationHead">
+							<a href="#" class="btn btn-default acti">系统消息<span></span><i class="Iact"></i></a>
+							<a href="#" class="btn btn-default">商机消息<span class="radios">22</span><i></i></a>
+							<a href="#" class="btn btn-default">服务消息<span></span><i></i></a>
+						</div>
+						<!--表格-->
+						<div class="informationBody">
+							<table class="table table-bordered" id="informationTable">
+								<thead class="text-center">
+									<tr class="text-center">
+										<td>序号</td>
+										<td>时间</td>
+										<td>内容</td>
+									</tr>
+								</thead>
+								<tbody class="text-center">
+									<tr class="text-center">
+										<td>1</td>
+										<td>2017-07-09-10：55</td>
+										<td>
+											<div class="textBox">
+												<div class="text">
+													文：千松雪 浪费生命的感觉，真好。 2017年10月9日 星期一 阴 不知道从什么时候开始，
+													我渐渐地有了失眠这个坏毛病。 明明每天十点半就躺在了床上，可是早一
+												</div>
+												<a href="#">更多</a>
+												<p>				
+													文：千松雪 浪费生命的感觉，真好。 2017年10月9日 星期一 阴 不知道从什么时候开始，
+													我渐渐地有了失眠这个坏毛病。 明明每天十点半就躺在了床上，可是早一
+												</p>
+											</div>
+										</td>
+									</tr>
+																		<tr class="text-center">
+										<td>1</td>
+										<td>2017-07-09-10：55</td>
+										<td>
+											<div class="textBox">
+												<div class="text">
+													文：千松雪 浪费生命的感觉，真好。 2017年10月9日 星期一 阴 不知道从什么时候开始，
+													我渐渐地有了失眠这个坏毛病。 明明每天十点半就躺在了床上，可是早一
+												</div>
+												<a href="#">更多</a>
+												<p>				
+													文：千松雪 浪费生命的感觉，真好。 2017年10月9日 星期一 阴 不知道从什么时候开始，
+													我渐渐地有了失眠这个坏毛病。 明明每天十点半就躺在了床上，可是早一
+												</p>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<!-- data-toggle="modal" href="#informationModal" class="modelActive"-->
+						</div>
+						<!--模态轮播图-->
+						<div id="informationModal" class="modal fade">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<!-- 模态框 -->
+									<div id="myCarousel" class="carousel slide">
+										<!-- 轮播（Carousel）项目 -->
+										<div class="carousel-inner">
+											<div class="item active">
+												<img src="../../img/1.jpg" alt="正面照">
+											</div>
+											<div class="item">
+												<img src="../../img/1.jpg" alt="中控照">
+											</div>
+											<div class="item">
+												<img src="../../img/1.jpg" alt="后面照">
+											</div>
+										</div>
+										<!-- 轮播（Carousel）导航 -->
+										<a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
+										<a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="pager" class="pull-right">
+							<ul class="pagination">
+								<li class="prev">
+									<a href="#">上一页</a>
+								</li>
+								<li class="prev">
+									<a href="#">1</a>
+								</li>
+								<li class="prev">
+									<a href="#">下一页</a>
+								</li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../../js/jquery.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
+	<script src="../../js/echarts.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/shuju/shuju.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/active.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$("#information .btn-default").click(function(){
+			$(this).addClass("acti").siblings().removeClass("acti");
+			$(this).find("i").addClass("Iact").parent().siblings().find("i").removeClass("Iact")			
+		})
+		var time
+		$("#informationTable td .text").hover(function(){
+			var _this=$(this)
+			time=setInterval(function(){
+				_this.siblings("p").css("display","block")				
+			},500)
+		},function(){
+			clearInterval(time)
+			$(this).siblings("p").css("display","none")
+			console.log($(this).siblings("p"))
+		})
+	</script>
+</html>
